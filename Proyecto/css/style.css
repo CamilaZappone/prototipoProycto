@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+*{ margin: 0;
+	padding: 0;
+}
+.fotos {
+	display: flex;
+	height: 500px;
+	margin-top: 30px;
+	align-content: flex-start;
+	justify-content: space-around;
+	}
+#sede{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-top: 1px ;
+	border-bottom: 1px ;
+	padding: 5px;
+	display: inside-purple;
+	margin: 5px;
+}
+.sale {
+	margin-right: 1px;
+}
+
+.main__sucursales_map{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.nav{
+	text-align: center;
+	color: green;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-color: purple;
+	color: purple;
+	}
+
+.tituloconsulta {
+	font-style: italic;
+	background-color: #fda9f8;
+	position: relative;
+	padding:3px;
+	text-align:center;
+
+}
+
+h4{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:400;
+	text-transform: uppercase;
+	font-size: 17px;
+	text-align: center;
+	padding:10px;
+	margin:10px;
+}
+.abajo{
+	display: block;
+}
+label{
+	display: inline-block;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5 px;
+}
+div p {
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:300;
+}
+body div ul{
+	color: purple;
+	list-style-position: inside;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+	body strong {
+		font-weight: 600;
+	}
+	.fondo {
+		height: 180px;
+		background-image: url("imagen.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position:  center center;
+	}
+	/*color: purple;
+	font-size: 20px;
+	font-family: monospace;
+	text-transform: uppercase;
+    text-align: center;
+    background-color: #ccc;
+
+    	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-variant-position: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:300;
+*/
+.header__navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 6px 0 rgb(32 32 36 / 28%);
+    z-index: 1;
+    position: relative;
+    padding: 5px;
+}
+
+.header__navbar__logo {
+    width: 186px;
+    height: 81px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.header__navbar__logo img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.header__navbar li {
+    margin: 17px;
+}
+.header__navbar ul {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
+	margin-bottom: 0;
+}
+.header__navbar li a {
+	font-family: 'Baloo Tammudu 2', cursive;
+	text-decoration: none;
+	color: black;
+    font-size: 17px;
+    border-bottom: 1px solid #cec7c7;
+    border-top: 1px solid #cec7c7;
+    padding-top: 10px;
+}
+.header__navbar li a:hover {
+	color: #0bbc0b;
+}
+
+.col-sm-4.info img {
+    width: 118px;
+    height: auto;
+}
+
+.col-sm-4.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.bannerInicio img {
+    width: 100%;
+    height: auto;
+}
+
+.carouselApolo {
+	height: 500px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.carouselApolo .buttonCarouselRight {
+	 background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(34,33,33,1) 100%);
+}
+
+.carouselApolo .buttonCarouselLeft {
+	background: linear-gradient(90deg, rgba(34,33,33,1) 0%,rgba(255,255,255,0)  100%);
+}
+.col-sm-12.bannerInicio {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.info h3 {
+		font-size: 21px;
+		font-family: 'Baloo Tammudu 2', cursive;
+		font-weight: 600;
+}
+.info p {
+    font-size: 13px;
+    font-family: 'Baloo Tammudu 2';
+    color: #7c7c7c;
+}
+.buttonMenu {
+	display: none;
+}
+#fcontacto{
+	background-image: url("gradiente.png");
+}
+
+.contenedor {
+	background-color: #CACFD2;
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	border-style: solid;
+	font-family: 'Josefin Sans', sans-serif;
+	align-items: space-between;
+}
+.contenedor h1 {
+	font-size: 24px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+	color:#59c173;
+
+}
+.formu {
+	width: 100%;
+	padding: 3px;
+	border-radius: 3px;
+	font-size: 15px;
+
+}
+.boton {
+	width: 100%;
+	color: black;
+	font-size: 16px;
+	padding: 3px;
+	border-radius: 2px;
+	background: linear-gradient(90deg, rgba(138,139,139,1) 0%, rgba(209,209,210,1) 39%, rgba(138,139,139,1) 100%);
+}
+.boton:hover{
+	cursor:pointer;
+	transform:scale(1.1);
+	color: black;
+	font-weight: bold;
+}
+
+/*26/6*/
+.footer__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__container p{
+	font-family: 'Baloo Tammudu 2', cursive;
+	margin-top: 100px;
+}
+
+.main__descripcion{
+	width: 80%;
+	margin: 100px auto 100px auto;
+}
+
+.main__descripcion h4{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+.main__descripcion p{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.main__sucursales{
+	width: 80%;
+	margin: 0 auto 50px auto;
+}
+.main__sucursales__info{
+	display: block;
+}
+
+.main__sucursales__info h4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.main__sucursales__info li{
+	text-decoration: none;
+	color: black;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+
+
+/* MOBILE */
+@media (max-width: 480px) {
+	.buttonMenu {
+		display: block;
+		padding: 6px;
+		border-radius: 6px;
+		border: 2px solid #0bbc0b;
+		background-color: white;
+	}
+	.header__navbar__navMenu {
+		display: none;
+	}
+	nav.navMenuMobile ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+	}
+	.navMenuMobile li {
+		width: 100%;
+		text-align: center;
+		padding: 19px;
+		border-bottom: 1px solid grey;
+		height: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 22px;
+		box-shadow: 1px 3px 4px #7c7c7c;
+	}
+	#modalMenu .modal-content {
+		height: 100%;
+	}
+	
+	nav.navMenuMobile {
+		height: 100%;
+	}
+	#modalMenu .modal-dialog {
+		height: 100vh;
+	}
+	.carouselApolo div, .carouselApolo div img {
+		height: 100%;
+	}
+	a.navButtom {
+		text-decoration: none;
+		color: black;
+	}
+	.imagenMobile {
+		height: 100%;
+	}
+	.carouselApolo div img {
+		width: auto !important;
+	}
+	.col-sm-12.bannerInicio {
+		height: auto;
+		overflow: hidden;
+		margin-bottom: 12px;
+	}
+}
